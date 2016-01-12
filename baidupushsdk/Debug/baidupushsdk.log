@@ -1,0 +1,45 @@
+﻿Build started 2016/1/12 15:00:14.
+     1>Project "D:\work\m_baidupushsdk\baidupushsdk\baidupushsdk.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\baidupushsdk.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\baidupushsdk.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt baidupush.cpp baidupushsdk.cpp
+         baidupushsdk.cpp
+         baidupush.cpp
+     1>d:\work\m_baidupushsdk\baidupushsdk\baidupush.cpp(100): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\baidupushsdk.exe.embed.manifest.res" Debug\baidupushsdk_manifest.rc 
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\m_baidupushsdk\Debug\baidupushsdk.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\baidupushsdk.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\m_baidupushsdk\Debug\baidupushsdk.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\m_baidupushsdk\Debug\baidupushsdk.lib" /MACHINE:X86 Debug\baidupushsdk.exe.embed.manifest.res
+         Debug\baidupush.obj
+         Debug\baidupushsdk.obj
+         cyassl.lib(ssl.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+       Manifest:
+         Deleting file "Debug\baidupushsdk.exe.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\baidupushsdk.exe.embed.manifest" /manifest Debug\baidupushsdk.exe.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\baidupushsdk.exe.embed.manifest.res" Debug\baidupushsdk_manifest.rc 
+       LinkEmbedManifest:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\m_baidupushsdk\Debug\baidupushsdk.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\baidupushsdk.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\m_baidupushsdk\Debug\baidupushsdk.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\m_baidupushsdk\Debug\baidupushsdk.lib" /MACHINE:X86 Debug\baidupushsdk.exe.embed.manifest.res
+         Debug\baidupush.obj
+         Debug\baidupushsdk.obj
+         cyassl.lib(ssl.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         baidupushsdk.vcxproj -> D:\work\m_baidupushsdk\Debug\baidupushsdk.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\baidupushsdk.unsuccessfulbuild".
+         Touching "Debug\baidupushsdk.lastbuildstate".
+     1>Done Building Project "D:\work\m_baidupushsdk\baidupushsdk\baidupushsdk.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.50
