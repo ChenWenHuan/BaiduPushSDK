@@ -18,7 +18,7 @@
 
 #define IOS_APP_KEY ""
 #define IOS_SECRECT_KEY ""
-#define IOS_PUSHMESSAGEBODY "{\"aps\":{\"alert\":\"%s\"},\"MAC\":\"549A11C00000\"}"
+#define IOS_PUSHMESSAGEBODY "{\"aps\":{\"alert\" : \"%s\",\"sound\" : \"\",\"badge\":1,\"content-available\" : 1},\"lightapp_ctrl_keys\":{\"display_in_notification_bar\" : 0,\"url\" : \"http://www.baidu.com\",\"enter_msg_center\" : 0 },\"MAC\": \"%s\"} "
 
 
 
